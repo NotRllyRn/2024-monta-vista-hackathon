@@ -3,7 +3,8 @@ import "react-visual-grid/dist/react-visual-grid.css";
 import React, { useState } from 'react';
 
 import {
-    Accordion
+    Accordion,
+    FlashCard
 } from './index.js'
 
 
@@ -22,7 +23,9 @@ function Menu() {
                     </div>
                     <div>
                         <Accordion title='Flash Card Quiz' content={
-                            <div></div>
+                            <div>
+                                <FlashCard title ='Question 1' choices= {['hi', 'no']} />
+                            </div>
                         } color='#fbdf61' />
                     </div>
                 </div>
