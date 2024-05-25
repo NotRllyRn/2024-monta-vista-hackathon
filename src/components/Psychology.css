@@ -7,6 +7,12 @@
     pointer-events: none;
   }
 
+  .video {
+    height: 400px;
+    width: 800px;
+    margin: 20px;
+  }
+
   .title-header {
     font-size: 2em;
     font-weight: bold;
@@ -120,31 +126,23 @@
   .Menu-link {
     color: #61dafb;
   }
+  
 
   .accordion {
     margin: 2rem auto;
-    width: 1200px;
+    width: 90%;
   }
   
   .accordion-title {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
-    background-color: #21aeca;
-  }
-  
-  .accordion-title:hover {
-    background-color: #3ab4cc;
-  }
-  
-  .accordion-title,
-  .accordion-content {
     padding: 1rem;
   }
-  
+
   .accordion-content {
-    background-color: #39b9d2;
+    padding: 1rem;
+    height: auto
   }
   
   @keyframes Menu-logo-spin {
