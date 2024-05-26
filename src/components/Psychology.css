@@ -20,6 +20,7 @@
     /* text align top */
     vertical-align: top;
     margin-top: 20px;
+    margin-left: 10px;
   }
 
   .full-title-header {
@@ -93,7 +94,12 @@
       animation: Menu-logo-spin infinite 20s linear;
     }
   }
-  
+
+  h2{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
   .Psychology-header {
     background-color: #282c34;
     min-height: 100vh;
@@ -129,7 +135,7 @@
   
 
   .accordion {
-    margin: 2rem auto;
+    margin: .5rem auto;
     width: 90%;
   }
   
@@ -138,11 +144,14 @@
     justify-content: space-between;
     cursor: pointer;
     padding: 1rem;
+    padding-left: 50px;
   }
 
   .accordion-content {
-    padding: 1rem;
-    height: auto
+    padding: 2rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
   }
   
   @keyframes Menu-logo-spin {

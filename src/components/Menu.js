@@ -2,6 +2,8 @@ import './Menu.css';
 import "react-visual-grid/dist/react-visual-grid.css";
 import {
     Psych,
+    Calc,
+    USH,
 } from '../images'
 
 function Menu() {
@@ -25,8 +27,8 @@ function Menu() {
                     </a>
                 </div>
                 <div className='grid-item'>
-                    <a href='/psychology'>
-                    <img src={Psych} alt='Calculus BC' className='image' />
+                    <a href='/CalculusBC'>
+                    <img src={Calc} alt='Calculus BC' className='image' />
                     <header className='overlay-box'>
                         <div className='overlay-text'>
                         Calculus BC
@@ -35,8 +37,8 @@ function Menu() {
                     </a>
                 </div>
                 <div className='grid-item'>
-                    <a href='/psychology'>
-                    <img src={Psych} alt='Psychology' className='image' />
+                    <a href='/USHistory'>
+                    <img src={USH} alt='Psychology' className='image' />
                     <header className='overlay-box'>
                         <div className='overlay-text'>
                             U.S. History
