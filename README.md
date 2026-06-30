@@ -1,3 +1,11 @@
+# Archived
+
+This repository has been archived.
+
+# App idea
+
+A web app that helps you study for AP classes
+
 # 2024-monta-vista-hackathon
 
 motivational message: just survive
